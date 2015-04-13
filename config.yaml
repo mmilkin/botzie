@@ -1,0 +1,8 @@
+irc_connection:
+    !!python/object/apply:botzie.bot.ConnectionConfig
+    args:
+        - 'irc.yourserver.net:port=6697'
+        - '#scrum'
+        - 'scrumbot'
+        - 'realName = bot: scrum'
+        - 'passwd'
